@@ -32,6 +32,12 @@ li {
     list-style-type: none;
 }
 
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .body {
     display: flex;
     flex-direction: column;
@@ -64,9 +70,12 @@ img {
 
 button {
     width: 100px;
+    padding: 6px;
     color: #F9FAF8;
+    font-weight: bold;
     background-color: #3882F6;
-    border-radius: 50px
+    border: 0px;
+    border-radius: 60px
 }
 
 #sub-one {
