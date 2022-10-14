@@ -66,6 +66,8 @@ a {
 
 img {
     max-width: 300px;
+    flex-shrink: 2;
+    /*border-radius: 20px;*/
 }
 
 button {
@@ -103,11 +105,28 @@ button {
     gap: 36px;
 }
 
-.content {
+.container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    align-items: center;
+    gap: 70px;
+    margin: 0;
 }
+
+.content {
+    max-width: 200px;
+    gap: 20px;
+    text-align: center;
+}
+
+.victim {
+    border-radius: 20px;
+    max-width: 240px;
+    max-height: 240px;
+}
+
+
+
 
 
 
