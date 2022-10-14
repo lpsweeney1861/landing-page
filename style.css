@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0; 
 }
 
 .header {
@@ -38,7 +39,8 @@ li {
 }
 
 .section {
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
 }
 
 #one {
