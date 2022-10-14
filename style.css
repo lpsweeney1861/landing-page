@@ -98,5 +98,14 @@ button {
     color: #1F2937;
 }
 
+#two {
+    flex-direction: column;
+    gap: 36px;
+}
+
+.content {
+    display: flex;
+}
+
 
 
