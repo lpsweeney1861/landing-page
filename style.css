@@ -41,18 +41,25 @@ li {
 .section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
 #one {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    /*justify-content: center; <- this was unecessary because this section was already
+    centered by the .section styling*/
+    gap: 35px;
     background-color: #1F2937;
 }
 
 .left {
     display: flex;
     flex-direction: column;
+}
+
+img {
+    max-width: 300px;
 }
 
 button {
@@ -74,8 +81,4 @@ button {
 }
 
 
-img {
-    width= 200px;
-    height: 200px;
-}
 
