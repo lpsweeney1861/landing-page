@@ -63,7 +63,10 @@ img {
 }
 
 button {
-    width: 75px;
+    width: 100px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 50px
 }
 
 #sub-one {
@@ -76,8 +79,8 @@ button {
 .section-heading {
     font-weight: extra-bold;
     font-size: 48px;
-    max-width: 250px;
-    color: #F9FAF8
+    max-width: 350px;
+    color: #F9FAF8;
 }
 
 
